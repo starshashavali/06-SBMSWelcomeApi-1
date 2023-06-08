@@ -1,0 +1,14 @@
+server:
+  port: 9993
+spring:
+  application:
+    name: WELCOME-API
+  boot:
+    admin:
+      client:
+        url: http://localhost:1111/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
